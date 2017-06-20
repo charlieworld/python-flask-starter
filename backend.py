@@ -29,7 +29,11 @@ def sort_data(data):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    obj = {'title':'Python Flask starter',
+           'description': 'This is a \'Python Flask starter\' power by Charlieeeee',
+           'author': 'Charlieeeee'}
+
+    return render_template('index.html', head=obj)
 
 
 @app.route('/json')
