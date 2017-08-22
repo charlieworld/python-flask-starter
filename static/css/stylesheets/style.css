@@ -1,4 +1,27 @@
-/* line 3, ../sass/style.scss */
+/* line 4, ../sass/_header.scss */
+header {
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+}
+@media only screen and (max-width: 768px) {
+  /* line 4, ../sass/_header.scss */
+  header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+/* line 2, ../sass/_footer.scss */
+footer {
+  background-color: #262626;
+  margin-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* line 6, ../sass/style.scss */
 body {
   background-color: #121212;
   color: #ffffff;
@@ -6,55 +29,63 @@ body {
   letter-spacing: 3px;
 }
 
-/* line 7, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 a {
   color: white;
   text-decoration: underline;
 }
 
-/* line 8, ../sass/style.scss */
+/* line 11, ../sass/style.scss */
 a:visited {
   color: white;
   text-decoration: underline;
 }
 
-/* line 9, ../sass/style.scss */
+/* line 12, ../sass/style.scss */
 a:hover {
   color: white;
   text-decoration: underline;
 }
 
-/* line 10, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 a:active {
   color: white;
   text-decoration: underline;
 }
 
-/* line 12, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 #wrapper {
   overflow-x: hidden;
 }
 
-/* line 14, ../sass/style.scss */
+/* line 17, ../sass/style.scss */
 .hover:hover {
   cursor: pointer;
   font-weight: bold;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 17, ../sass/style.scss */
+  /* line 20, ../sass/style.scss */
   body {
     font-size: 1.4rem;
     letter-spacing: 2px;
   }
 
-  /* line 20, ../sass/style.scss */
+  /* line 23, ../sass/style.scss */
   h1 {
     font-size: 2.5rem;
   }
 
-  /* line 21, ../sass/style.scss */
+  /* line 24, ../sass/style.scss */
   h2 {
     font-size: 2rem;
   }
+}
+/* line 27, ../sass/style.scss */
+.hi {
+  font-size: 2.5rem;
+}
+/* line 30, ../sass/style.scss */
+.hi_hi2 {
+  font-size: 2.5rem;
 }
